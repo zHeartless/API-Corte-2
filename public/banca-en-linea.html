@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BDV - Acceso Usuario</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <header>
+        <img src="../img/logo.png" alt="Logo de MiBanco" height="100">
+        <h1>BDV - Acceso Usuario</h1>
+        <hr>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="banca-en-linea.html">Banca en Línea</a>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <div class="form-container">
+            <h2>Iniciar Sesión</h2>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="login-username">Usuario:</label>
+                    <input type="text" id="login-username" placeholder="Ingrese su usuario" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Contraseña:</label>
+                    <input type="password" id="login-password" placeholder="Ingrese su contraseña" required>
+                </div>
+                <button type="submit" id="login-button">Ingresar</button>
+            </form>
+            <div id="loginMessage" class="message"></div>
+
+            <p><a href="forgot-password.html" class="forgot-password-link">¿Olvidó su usuario, clave de acceso o preguntas de seguridad?</a></p>
+
+            <hr class="register-section-divider"> <div class="register-section">
+                <h3>NUEVOS USUARIOS</h3>
+                <p>Si usted está ingresando a este servicio por primera vez, o no posee Usuario y Clave</p>
+                <a href="registro.html" class="button-link">Afíliese Aquí</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 VnzlQueSiFunciona. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="../js/app.js"></script>
+</body>
+</html>

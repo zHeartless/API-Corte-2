@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BDV - Registro de Usuario</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <header>
+        <img src="../img/logo.png" alt="Logo de MiBanco" height="100">
+        <h1>Registro de Usuario</h1>
+        <hr>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="banca-en-linea.html">Banca en Línea</a>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <div class="form-container">
+            <h2>Crear Cuenta</h2>
+            <input type="text" id="reg-username" placeholder="Usuario" required>
+            <input type="password" id="reg-password" placeholder="Contraseña" required>
+            <button onclick="registerUser()">Registrarse</button>
+            <div id="registerMessage" class="message"></div>
+            <a href="banca-en-linea.html" class="back-link">Volver a Banca en Línea</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 VnzlQueSiFunciona. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="../js/app.js"></script>
+</body>
+</html>

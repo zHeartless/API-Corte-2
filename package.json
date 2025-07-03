@@ -1,0 +1,33 @@
+{
+  "name": "bdv-api-template",
+  "version": "1.0.0",
+  "description": "Plantilla API REST con Node, Express, JWT y Sequelize",
+  "main": "src/app.js",
+  "type": "module", 
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "keywords": [
+    "express",
+    "jwt",
+    "sequelize",
+    "mysql",
+    "api",
+    "rest"
+  ],
+  "author": "ChatGPT",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.10.3",
+    "sequelize": "^6.37.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
